@@ -6,7 +6,9 @@ import { Juego } from '../interfaces/juego.interface';
 @Injectable({
   providedIn: 'root'
 })
+
 export class JuegosDataService {
+  
   private juegosSubject = new BehaviorSubject<Juego[]>([]);
   public juegos$ = this.juegosSubject.asObservable();
 
@@ -86,5 +88,15 @@ export class JuegosDataService {
       )
     );
   }
+  getJuegosPorPrecio(min: number, max: number): Observable<Juego[]> {
+  return this.juegos$.pipe(
+    map(juegos => juegos.filter(juego => {
+      const precio = juego.esGratis ? 69 : juego.precio;
+      return precio >= min && precio <= max;
+    }))
+  );
+}
+  
+  
   
 }
