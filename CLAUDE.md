@@ -121,6 +121,28 @@ All components, services, routing, and data loading are complete and functional.
 - Create admin panel for game management
 - Add internationalization (i18n)
 
+### Exam Materials
+The `/exam` folder contains evaluation materials for JavaScript Advanced course:
+
+**Files included:**
+- `consigna.md` - Exam instructions in Markdown format (20 points total)
+- `practica-calificada.html` - Visual HTML version with anti-copy protection
+
+**Exam Structure (20 points - vigesimal scale):**
+- Part 0: Initial Configuration (1 pt) - Repository setup
+- Part 1: Data Modification (5 pts) - JSON editing
+- Part 2: Components & Navigation (7 pts) - Angular implementation
+- Part 3: Services & Functionality (5 pts) - Service extensions
+- Part 4: Analysis & Understanding (2 pts) - Conceptual questions
+
+**Security Features in HTML exam:**
+- Disabled right-click and context menu
+- Blocked copy keyboard shortcuts (Ctrl+C, Ctrl+A, Ctrl+X)
+- Prevented text selection except in code blocks
+- Disabled F12 developer tools
+- Anti-print protection
+- Visual warning on copy attempts
+
 ### Troubleshooting
 - **JSON not loading**: Ensure `ng serve` is running and assets are properly configured in angular.json
 - **Routing issues**: Check that all components are properly imported in routes
