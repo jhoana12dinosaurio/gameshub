@@ -73,6 +73,7 @@ All components, services, routing, and data loading are complete and functional.
 - Error handling for missing data
 - Smooth transitions and hover effects
 - Mobile-optimized navigation and layouts
+- Optimized image handling with fixed dimensions and lazy loading
 
 ### Data Structure
 **Games Include:** id, name, image, category, developer, release date, description, rating, platforms array, price, free flag, system requirements (min/recommended), screenshots array, tags array
@@ -125,3 +126,9 @@ All components, services, routing, and data loading are complete and functional.
 - **Routing issues**: Check that all components are properly imported in routes
 - **Styling problems**: Verify Bootstrap CSS is loaded in angular.json styles array
 - **Component errors**: Ensure all standalone components have proper imports array
+- **Image sizing issues**: All game images have fixed heights with `object-fit: cover` to maintain proportions:
+  - Lista de juegos (tarjeta-juego): 200px height
+  - Detalle de juego principal: 300px height in container
+  - Screenshots y juegos similares: 200px height
+  - Uses `loading="lazy"` for performance optimization
+  - Container elements prevent image overflow

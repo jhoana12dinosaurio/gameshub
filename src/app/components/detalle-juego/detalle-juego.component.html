@@ -62,7 +62,9 @@
         </div>
         <div class="col-lg-4">
           <div class="game-card-detail">
-            <img [src]="juego.imagen" [alt]="juego.nombre" class="game-image">
+            <div class="image-container">
+              <img [src]="juego.imagen" [alt]="juego.nombre" class="game-image" loading="lazy">
+            </div>
             <div class="game-price">
               @if(juego.esGratis) {
                 <span class="price-free">Free to Play</span>
@@ -232,7 +234,7 @@
             <div class="screenshots-grid">
               @for(screenshot of juego.screenshots; track screenshot) {
                 <div class="screenshot-item">
-                  <img [src]="screenshot" [alt]="'Screenshot de ' + juego.nombre" class="screenshot-img">
+                  <img [src]="screenshot" [alt]="'Screenshot de ' + juego.nombre" class="screenshot-img" loading="lazy">
                 </div>
               }
             </div>
@@ -252,7 +254,9 @@
             @if(similar.id !== juego.id) {
               <div class="col-lg-4">
                 <a [routerLink]="['/juego', similar.id]" class="similar-game-card">
-                  <img [src]="similar.imagen" [alt]="similar.nombre" class="similar-img">
+                  <div class="image-container">
+                    <img [src]="similar.imagen" [alt]="similar.nombre" class="similar-img" loading="lazy">
+                  </div>
                   <div class="similar-content">
                     <h5>{{similar.nombre}}</h5>
                     <p class="text-secondary">{{similar.desarrollador}}</p>
