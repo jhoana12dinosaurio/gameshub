@@ -555,6 +555,13 @@
       "icono": "bi-trophy",
       "descripcion": "Juegos deportivos con simulación realista de diferentes disciplinas",
       "color": "#4ecdc4"
+    },
+    {
+      "id": "16",
+      "nombre": "Sports",
+      "desarrollador": "Polyphony Digital",
+      "plataformas": "Playstation",
+      "color": "#4ecdc4"
     }
   ]
 }
