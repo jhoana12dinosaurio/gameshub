@@ -511,7 +511,25 @@
         "https://play-lh.googleusercontent.com/screenshot2.jpg"
       ],
       "tags": ["MOBA", "Mobile", "5v5", "Estrategia"]
-    }
+    }, {
+      "id": "16",
+      "nombre": "Sports",
+      "desarrollador": "Polyphony Digital",
+      "plataformas": "Playstation",
+      "precio": "69.99",
+      "rating": "4.5"
+            ,"imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0X3NOrAioG4t1ucOu5NIa7MqAKnrY_yNjQ&s.jpg"
+
+},
+{
+      "id": "17",
+      "nombre": "adventure",
+      "desarrollador": "nintendo EPD",
+      "plataformas": "nintendo switch",
+      "precio": "59.99",
+      "rating": "4.9","imagen":"https://i0.wp.com/mynintendonews.com/wp-content/uploads/2019/10/ring_fit_adventure_artwork.jpg?resize=780%2C780&ssl=1.jpg"
+
+}
   ],
   "categorias": [
     {
@@ -556,29 +574,13 @@
       "descripcion": "Juegos deportivos con simulación realista de diferentes disciplinas",
       "color": "#4ecdc4"
     },
-    {
-      "id": "16",
-      "nombre": "Sports",
-      "desarrollador": "Polyphony Digital",
-      "plataformas": "Playstation",
-      "precio": "69.99",
-      "rating": "4.5"
-},
-{
-      "id": "17",
-      "nombre": "adventure",
-      "desarrollador": "nintendo EPD",
-      "plataformas": "nintendo switch",
-      "precio": "59.99",
-      "rating": "4.9"
-},
+
 {
    "id": "adventure",
       "nombre": "adventure",
       "icono": "bi-compass",
       "descripcion": "juegos de aventura y exploracion con narrativas epicas",
-      "color": "#9b59b6"
-      
+      "color": "#9b59b6"      
 }
  ]}
  
