@@ -561,7 +561,24 @@
       "nombre": "Sports",
       "desarrollador": "Polyphony Digital",
       "plataformas": "Playstation",
-      "color": "#4ecdc4"
-    }
-  ]
+      "precio": "69.99",
+      "rating": "4.5"
+},
+{
+      "id": "17",
+      "nombre": "adventure",
+      "desarrollador": "nintendo EPD",
+      "plataformas": "nintendo switch",
+      "precio": "59.99",
+      "rating": "4.9"
+},
+{
+   "id": "adventure",
+      "nombre": "adventure",
+      "icono": "bi-compass",
+      "descripcion": "juegos de aventura y exploracion con narrativas epicas",
+      "color": "#9b59b6"
+      
 }
+ ]}
+ 
